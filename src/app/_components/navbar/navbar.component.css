@@ -5,14 +5,14 @@
 }
 
 .nav-link.active {
-color: var(--blue-base)
+color: var(--blue-base);
 }
 
 .active {
-color: var(--blue-base)
+color: var(--blue-base);
 }
 
 .nav-link {
-color: var(--gray-200)
+color: var(--gray-200);
 }
 

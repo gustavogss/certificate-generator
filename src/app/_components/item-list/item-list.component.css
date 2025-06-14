@@ -1,0 +1,13 @@
+.nome-aluno{
+  color: var(--blue-dark);
+}
+
+.small-date{
+  color: var(--gray-200);
+}
+
+.custom-card {
+  border: 1px solid var(--gray-100);
+  border-radius:8px;
+  margin-bottom: 8px;
+}
