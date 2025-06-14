@@ -4,10 +4,11 @@ import { CommonModule } from '@angular/common';
 import { PrimaryButtonComponent } from "./_components/primary-button/primary-button.component";
 import { SecondButtonComponent } from "./_components/second-button/second-button.component";
 import { ItemListComponent } from "./_components/item-list/item-list.component";
+import { UiBaseComponent } from "./_components/ui-base/ui-base.component";
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, CommonModule, PrimaryButtonComponent, SecondButtonComponent, ItemListComponent],
+  imports: [NavbarComponent, CommonModule, PrimaryButtonComponent, SecondButtonComponent, ItemListComponent, UiBaseComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
