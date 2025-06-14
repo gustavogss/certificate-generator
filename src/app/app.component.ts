@@ -5,10 +5,11 @@ import { PrimaryButtonComponent } from "./_components/primary-button/primary-but
 import { SecondButtonComponent } from "./_components/second-button/second-button.component";
 import { ItemListComponent } from "./_components/item-list/item-list.component";
 import { UiBaseComponent } from "./_components/ui-base/ui-base.component";
+import { CertificatesComponent } from "./pages/certificates/certificates.component";
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, CommonModule, PrimaryButtonComponent, SecondButtonComponent, ItemListComponent, UiBaseComponent],
+  imports: [NavbarComponent, CommonModule, UiBaseComponent, CertificatesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
