@@ -4,7 +4,7 @@ import { ItemListComponent } from "../../_components/item-list/item-list.compone
 
 @Component({
   selector: 'app-certificates',
-  imports: [SecondButtonComponent, ItemListComponent],
+  imports: [SecondButtonComponent],
   templateUrl: './certificates.component.html',
   styleUrl: './certificates.component.css'
 })
