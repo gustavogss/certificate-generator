@@ -1,0 +1,21 @@
+.custom-bottom {
+  height: 40px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: var(--white);
+  background: var(--blue-dark);
+  cursor: pointer;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-bottom:hover {
+  opacity: 90%;
+}
+
+.custom-bottom i{
+  font-size: 20px;
+}
