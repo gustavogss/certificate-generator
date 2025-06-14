@@ -2,8 +2,8 @@
 - Gerador de certificados
 
 ## Stacks :robot:
-- Angular
-- Bootsrap
-- PhosphorIcons
+- [Angular](https://angular.dev/overview)
+- [Bootsrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [PhosphorIcons](https://github.com/phosphor-icons/homepage)
 
 ## Deploy :rocket:
