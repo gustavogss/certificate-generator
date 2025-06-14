@@ -27,7 +27,10 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/theme/global.css",
+               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
             ],
             "scripts": []
           },
@@ -84,7 +87,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
+           "styles": [
               "src/styles.css"
             ],
             "scripts": []
@@ -92,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b7a40fe5-3825-40d0-8ba0-dc09c3a06fe1"
   }
 }

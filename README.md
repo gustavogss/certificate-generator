@@ -3,5 +3,7 @@
 
 ## Stacks :robot:
 - Angular
+- Bootsrap
+- PhosphorIcons
 
 ## Deploy :rocket:
