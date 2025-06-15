@@ -20,21 +20,23 @@
         <p class="m-0">Entrada inválida</p>
       </div>
     </div>
-    <div class="mb-3 d-flex align-items-end custom-input-group">
-      <div class="flex-grow-1 me-2">
+    <div class="mb-3 d-flex align-items-center custom-input-group">
+      <div class="flex-grow-1 justify-content-center align-items-center">
         <label for="task" class="form-label">Atividade: </label>
-        <input
-          type="text"
-          class="form-control custom-input"
-          id="task"
-          placeholder="Atividade exercida"
-        />
+        <div class="d-flex justify-content-center gap-2">
+          <input
+            type="text"
+            class="form-control custom-input"
+            id="task"
+            placeholder="Atividade exercida"
+          />
+          <app-second-button></app-second-button>
+        </div>
         <div class="error-message d-flex align-items-center mt-1">
           <i class="ph ph-warning-circle"></i>
           <p class="m-0">Entrada inválida</p>
         </div>
       </div>
-      <app-second-button></app-second-button>
     </div>
     <div class="task-group">
       <label class="form-label title-tasks">Lista de atividades</label>
