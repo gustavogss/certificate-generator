@@ -2,10 +2,13 @@
   background-color: var(--white);
   padding: 1rem 2rem;
   border-bottom:1px solid var(--gray-100);
+  padding-right: 28px;
+  padding-left: 12px;
 }
 
 .nav-link.active {
 color: var(--blue-base);
+font-weight:600;
 }
 
 .active {
@@ -14,6 +17,16 @@ color: var(--blue-base);
 
 .nav-link {
 color: var(--gray-200);
+padding: 6px !important;
+}
+
+.nav-item{
+  cursor: pointer;
+  margin-left: 18px !important;
+}
+
+.nav-item i{
+font-size: 20px;
 }
 
 
