@@ -3,8 +3,8 @@
   gap: 20px;
   border-radius: 8px;
   border: 1px solid var(--gray-100);
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 48px 32px 56px 32px;
 }
@@ -14,25 +14,33 @@
   color: var(--gray-200);
 }
 
-.custom-empty-text{
-gap: 2px;
+.custom-warning-title {
+  gap: 2px;
 }
-.card-title{
+
+.card-title {
   font-weight: 700;
-  font-size:20px;
+  font-size: 14px;
   line-height: 20px;
-  letter-spacing:0;
+  letter-spacing: 0;
   text-align: center;
   color: var(--blue-dark);
 }
 
 .card-subtitle {
   font-weight: 400;
-  font-size:16px;
-  margin-top: 12px;
+  font-size: 12px;
   line-height: 16px;
-  letter-spacing:0;
+  letter-spacing: 0;
   text-align: center;
+}
+
+.list-certificates {
+  max-width: 672px;
+}
+
+.custom-subtitle{
   color: var(--gray-200);
 }
+
 
