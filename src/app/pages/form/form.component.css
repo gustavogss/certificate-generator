@@ -1,0 +1,103 @@
+.custom-card{
+  max-width: 672px;
+  gap: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-100);
+  padding: 32px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0;
+  margin-bottom:20px;
+  color: var(--blue-dark)
+}
+
+.title-tasks {
+  margin-top:20px;
+  text-align: left;
+}
+
+.task-group{
+  margin-bottom: 32px;
+}
+
+label{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--blue-dark);
+}
+
+.item-list{
+  width:100%;
+  border: 1px solid var(--gray-100);
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+}
+
+.item-list hr{
+all: unset;
+display: block;
+height: 1px;
+margin: 12px 0;
+background-color: var(--gray-100);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5.75px;
+}
+
+.remove-btn{
+  color: var(--danger-base);
+  font-size:16px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.remove-btn:hover{
+  background-color: var(--gray-100);
+  border-radius: 4px;
+  color: var(--danger-dark);
+  font-weight: 700;
+}
+
+.custom-input {
+  border: 1px solid var(--gray-100);
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 40px;
+}
+
+.custom-input:focus {
+border: 1px solid var(--blue-base);
+box-shadow: none;
+}
+
+.custom-input-group:has(input:focus) label {
+color: var(--blue-base);
+}
+
+.error-message{
+  gap:4px;
+  color: var(--danger-base);
+}
+
+.error-message p {
+  font-size:12px;
+  letter-spacing:0;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.custom-input-group:has(.error-message) label {
+color: var(--danger-base);
+}
+
