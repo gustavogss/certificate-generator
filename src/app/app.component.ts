@@ -7,10 +7,11 @@ import { ItemListComponent } from "./_components/item-list/item-list.component";
 import { UiBaseComponent } from "./_components/ui-base/ui-base.component";
 import { CertificatesComponent } from "./pages/certificates/certificates.component";
 import { FormComponent } from "./pages/form/form.component";
+import { ListCertificateComponent } from "./pages/list-certificate/list-certificate.component";
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, CommonModule, UiBaseComponent, CertificatesComponent, ItemListComponent, FormComponent],
+  imports: [NavbarComponent, CommonModule, UiBaseComponent, CertificatesComponent, ItemListComponent, FormComponent, ListCertificateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
